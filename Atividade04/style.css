@@ -1,12 +1,33 @@
 #bodyindex{
-    background-color: rgb(214, 138, 195);
-
+    background-color: rgb(228, 191, 218);
+    
 }
 
-img{
-    width: 250px;
-    height: auto;
+nav{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+    
+    
+
+footer ul li a img{
+    border-radius: 50%;
+    width: 50px;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+header ul li a{
+    text-decoration: none;
+}
+
+header ul{
+    text-decoration: none;
 }
